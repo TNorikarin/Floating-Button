@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="index.css">
+    <!-- !-- Multi Share Button -->
+    <h1>Floating Buttons...</h1>
+    <!-- <h2>.</h2> -->
+    <div class="btn-multi">
+        <input type="checkbox" id="multi-btn" name="multi-btn" />
+        <label id="main-btn" for="multi-btn">
+            <a href="https://www.facebook.com/tuannorikarinz" class="btn btn-circle" target="_blank"><i
+                    class="fab fa-facebook"></i></a>
+            <a href="https://www.twitter.com/" class="btn btn-circle" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.google.com/" class="btn btn-circle" target="_blank"><i
+                    class="fab fa-google-plus"></i></a>
+            <span class="btn btn-circle"><i class="material-icons icon closeBtn">close</i></span>
+            <i class="material-icons icon">share</i>
+        </label>
+    </div>
+    <!-- !-- Multi Share Button -->
+
+</head>
+
+<body>
+    <!-- Vertical Right Button -->
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <div class="floating-container fixed-action-btn horizontal click-to-toggle spin-close">
+        <div class="floating-button fixed-action-btn horizontal click-to-toggle spin-close">+</div>
+        <div class="element-container">
+           
+            <a class="tooltip-phone left" href="#">
+                <span class="tooltiptextPhone">0967350071</span>
+                <span class="float-element tooltip-phone">
+                    <i class="material-icons">phone</i>
+                </span>
+            </a>
+
+            <a class="tooltip-mail left" href="#">
+                <span class="tooltiptextMail">tuanpm637@gmail.com</span>
+                <span class="float-element tooltip-mail">
+                    <i class="material-icons">email
+                    </i>
+                </span>
+            </a>
+            <a class="tooltip-web left" href="https://tuanpm637.wixsite.com/norikarin" target="_blank">
+                <!-- <span class="tooltiptextWeb">https://tuanpm637.wixsite.com/norikarin</span> -->
+                <span class="float-element tooltip-web">
+                    <i class="material-icons">public</i>
+                </span>
+            </a>
+        </div>
+    </div>
+    <!-- !-- Vertical Right Button -->
+
+    <!-- !-- Middle Dropdown Button -->
+    <div class="container">
+        <input type="checkbox" id="toggle" checked />
+        <label class="button" for="toggle"></label>
+        <nav class="nav">
+            <ul>
+                <a href="https://tuanpm637.wixsite.com/norikarin" target="_blank">About</a>
+                <a href="" target="_blank">Home</a>
+                <a href="https://tuanpm637.wixsite.com/norikarin" target="_blank">Hire Me</a>
+                <a href="" target="_blank">Subscribe</a>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- !-- Middle Dropdown Button -->
+
+    <!-- Blue Middle Button -->
+    <nav class="menu">
+        <input type="checkbox" href="#" class="menu-open" name="menu-open" id="menu-open" />
+        <label class="menu-open-button" for="menu-open">
+            <span class="hamburger hamburger-1"></span>
+            <span class="hamburger hamburger-2"></span>
+            <span class="hamburger hamburger-3"></span>
+        </label>
+
+        <a href="#" class="menu-item"><i class="fas fa-chart-bar"></i> </a>
+        <a href="#" class="menu-item"> <i class="fa fa-plus"></i> </a>
+        <a href="#" class="menu-item"> <i class="fa fa-heart"></i> </a>
+        <a href="#" class="menu-item"> <i class="fa fa-envelope"></i> </a>
+
+
+    </nav>
+
+
+    <!-- filters -->
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+        <defs>
+            <filter id="shadowed-goo">
+
+                <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10" />
+                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7"
+                    result="goo" />
+                <feGaussianBlur in="goo" stdDeviation="3" result="shadow" />
+                <feColorMatrix in="shadow" mode="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 -0.2"
+                    result="shadow" />
+                <feOffset in="shadow" dx="1" dy="1" result="shadow" />
+                <feComposite in2="shadow" in="goo" result="goo" />
+                <feComposite in2="goo" in="SourceGraphic" result="mix" />
+            </filter>
+            <filter id="goo">
+                <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10" />
+                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7"
+                    result="goo" />
+                <feComposite in2="goo" in="SourceGraphic" result="mix" />
+            </filter>
+        </defs>
+    </svg>
+
+    <!-- Blue Middle Button -->
+
+
+
+</body>
+
+</html>
